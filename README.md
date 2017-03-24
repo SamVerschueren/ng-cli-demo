@@ -2,6 +2,8 @@
 
 > Project to demonstrate the [Angular CLI](https://github.com/angular/angular-cli)
 
+This branch implements lazy loading by splitting the code into multiple bundles and load the bundles on demond.
+
 
 ## Start
 
