@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
+import { CustomPreloader } from './custom.preloader';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { routing } from './app.routing';
     BrowserModule,
     routing
   ],
-  providers: [],
+  providers: [
+    CustomPreloader
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
